@@ -88,12 +88,6 @@ section {
         -ms-transform: translate(-50%, -50%);
          -o-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-  
-	/*
-	This doesn't work
-	margin-left: -25%;
-	margin-top: -25%;
-	*/
 
 	height:300px;
 	width: 768px;
@@ -165,6 +159,16 @@ section #choices ul li {
 	margin-top:3%;
 	margin-left: 5%;
 	width:42.5%;
+	cursor: pointer;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	     -o-user-select: none;
+	        user-select: none;
+}
+
+section #choices ul li:hover {
+	background-color: white;
 }
 
 /**********************************************
